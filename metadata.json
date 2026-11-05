@@ -1,0 +1,6 @@
+{
+  "name": "Vital",
+  "description": "Emergency-response and checkup-guidance platform. Confirmed hospital dispatch with closed-loop queue, doctor directory, and blood bank inventory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

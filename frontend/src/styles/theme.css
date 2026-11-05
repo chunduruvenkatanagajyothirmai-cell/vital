@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --vital-bg: #F4F6F4;
+  --vital-card: #FFFFFF;
+  --vital-panel: #EEF2EF;
+  --vital-border: #DCE4E0;
+  --vital-text: #1E2B27;
+  --vital-text-muted: #5A6B65;
+  --vital-red: #C0392B;
+  --vital-green: #2F8F5B;
+  --vital-amber: #B9791E;
+  --vital-blue: #3E6B99;
+}
+
+body {
+  background-color: var(--vital-bg);
+  color: var(--vital-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Status Dot Indicators */
+.status-dot-amber {
+  background-color: #B9791E;
+}
+.status-dot-green {
+  background-color: #2F8F5B;
+}
+.status-dot-red {
+  background-color: #C0392B;
+}
+.status-dot-blue {
+  background-color: #3E6B99;
+}

@@ -1,0 +1,243 @@
+{
+  "hospitals": [
+    {
+      "id": "hosp-001",
+      "name": "Apex Metro Super-Speciality Hospital",
+      "location": "84 Inner Ring Road, Koramangala, Bengaluru",
+      "distance_km": 2.4,
+      "phone": "+91 80 2553 9000",
+      "departments": [
+        "Trauma",
+        "Cardiology",
+        "Neurology",
+        "Orthopedics",
+        "Pulmonology",
+        "General Medicine"
+      ],
+      "er_beds_available": 5,
+      "has_trauma_center": true
+    },
+    {
+      "id": "hosp-002",
+      "name": "St. Jude Memorial Institute of Cardiac Sciences",
+      "location": "12 Hosur Main Rd, BTM 1st Stage, Bengaluru",
+      "distance_km": 3.8,
+      "phone": "+91 80 4112 4400",
+      "departments": [
+        "Cardiology",
+        "Pulmonology",
+        "General Medicine"
+      ],
+      "er_beds_available": 4,
+      "has_trauma_center": false
+    },
+    {
+      "id": "hosp-003",
+      "name": "National Neuro & Trauma Center",
+      "location": "45 Indira Gandhi Rd, Jayanagar 4th Block, Bengaluru",
+      "distance_km": 4.6,
+      "phone": "+91 80 2665 1200",
+      "departments": [
+        "Trauma",
+        "Neurology",
+        "Orthopedics",
+        "ENT",
+        "General Medicine"
+      ],
+      "er_beds_available": 3,
+      "has_trauma_center": true
+    },
+    {
+      "id": "hosp-004",
+      "name": "Lotus Children & Women's Hospital",
+      "location": "22 Sarjapur Main Rd, HSR Layout Sector 2, Bengaluru",
+      "distance_km": 5.1,
+      "phone": "+91 80 3090 8800",
+      "departments": [
+        "Pediatrics",
+        "ENT",
+        "General Medicine"
+      ],
+      "er_beds_available": 6,
+      "has_trauma_center": false
+    },
+    {
+      "id": "hosp-005",
+      "name": "Manipal City General & Pulmonary Hospital",
+      "location": "98 Airport Rd, Domlur, Bengaluru",
+      "distance_km": 6.4,
+      "phone": "+91 80 2502 4444",
+      "departments": [
+        "Pulmonology",
+        "ENT",
+        "Orthopedics",
+        "General Medicine"
+      ],
+      "er_beds_available": 4,
+      "has_trauma_center": true
+    },
+    {
+      "id": "hosp-006",
+      "name": "Fortis HealthCity Center",
+      "location": "154 Bannerghatta Rd, Bilekahalli, Bengaluru",
+      "distance_km": 7.2,
+      "phone": "+91 80 6621 4444",
+      "departments": [
+        "Trauma",
+        "Cardiology",
+        "Neurology",
+        "Orthopedics",
+        "Pediatrics",
+        "ENT",
+        "Pulmonology",
+        "General Medicine"
+      ],
+      "er_beds_available": 8,
+      "has_trauma_center": true
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doc-001",
+      "name": "Dr. Rajesh Iyer",
+      "department": "Trauma",
+      "expertise": "Polytrauma, Acute Resuscitation, Shock Management",
+      "timings": "08:00 AM - 04:00 PM (Mon-Sat)",
+      "hospital": "Apex Metro Super-Speciality Hospital",
+      "phone": "+91 80 2553 9001"
+    },
+    {
+      "id": "doc-002",
+      "name": "Dr. Ananya Roy",
+      "department": "Cardiology",
+      "expertise": "Acute Coronary Syndromes, Primary Angioplasty",
+      "timings": "09:00 AM - 05:00 PM (Mon-Fri)",
+      "hospital": "St. Jude Memorial Institute of Cardiac Sciences",
+      "phone": "+91 80 4112 4405"
+    },
+    {
+      "id": "doc-003",
+      "name": "Dr. Vikram Sethi",
+      "department": "Neurology",
+      "expertise": "Acute Ischemic Stroke, Thrombolysis, Head Trauma",
+      "timings": "10:00 AM - 06:00 PM (Tue-Sun)",
+      "hospital": "National Neuro & Trauma Center",
+      "phone": "+91 80 2665 1205"
+    },
+    {
+      "id": "doc-004",
+      "name": "Dr. Arvind Menon",
+      "department": "Pulmonology",
+      "expertise": "Severe Asthma, ARDS, Bronchoscopy, Critical Care",
+      "timings": "09:30 AM - 04:30 PM (Mon-Sat)",
+      "hospital": "Manipal City General & Pulmonary Hospital",
+      "phone": "+91 80 2502 4448"
+    },
+    {
+      "id": "doc-005",
+      "name": "Dr. Preeti Sen",
+      "department": "Pediatrics",
+      "expertise": "Pediatric Resuscitation, Neonatal ICU",
+      "timings": "08:30 AM - 03:30 PM (Mon-Sat)",
+      "hospital": "Lotus Children & Women's Hospital",
+      "phone": "+91 80 3090 8802"
+    },
+    {
+      "id": "doc-006",
+      "name": "Dr. Shalini Kulkarni",
+      "department": "ENT",
+      "expertise": "Tracheostomy, Epistaxis, Airway Blockage",
+      "timings": "11:00 AM - 07:00 PM (Mon-Fri)",
+      "hospital": "National Neuro & Trauma Center",
+      "phone": "+91 80 2665 1208"
+    },
+    {
+      "id": "doc-007",
+      "name": "Dr. Karthik Rao",
+      "department": "Orthopedics",
+      "expertise": "Complex Fractures, Joint Dislocation, Spine",
+      "timings": "09:00 AM - 05:00 PM (Mon-Sat)",
+      "hospital": "Apex Metro Super-Speciality Hospital",
+      "phone": "+91 80 2553 9005"
+    },
+    {
+      "id": "doc-008",
+      "name": "Dr. Meera Nambiar",
+      "department": "General Medicine",
+      "expertise": "Sepsis Management, Diabetic Emergencies",
+      "timings": "08:00 AM - 08:00 PM (Daily)",
+      "hospital": "Fortis HealthCity Center",
+      "phone": "+91 80 6621 4445"
+    }
+  ],
+  "blood_banks": [
+    {
+      "id": "bb-001",
+      "name": "Red Cross Central Blood Bank",
+      "location": "26 Mahatma Gandhi Rd, Central Bengaluru",
+      "distance_km": 3.2,
+      "phone": "+91 80 2226 8450",
+      "stock": {
+        "A+": 24,
+        "A-": 8,
+        "B+": 31,
+        "B-": 6,
+        "O+": 42,
+        "O-": 14,
+        "AB+": 18,
+        "AB-": 4
+      }
+    },
+    {
+      "id": "bb-002",
+      "name": "Apex Metro Hospital Rotary Blood Center",
+      "location": "84 Inner Ring Road, Koramangala, Bengaluru",
+      "distance_km": 2.4,
+      "phone": "+91 80 2553 9044",
+      "stock": {
+        "A+": 15,
+        "A-": 4,
+        "B+": 22,
+        "B-": 3,
+        "O+": 28,
+        "O-": 9,
+        "AB+": 11,
+        "AB-": 2
+      }
+    },
+    {
+      "id": "bb-003",
+      "name": "Lions LifeLine Blood Bank",
+      "location": "14 Brigade Rd, Ashok Nagar, Bengaluru",
+      "distance_km": 4.1,
+      "phone": "+91 80 2558 1111",
+      "stock": {
+        "A+": 19,
+        "A-": 5,
+        "B+": 17,
+        "B-": 4,
+        "O+": 35,
+        "O-": 7,
+        "AB+": 14,
+        "AB-": 3
+      }
+    },
+    {
+      "id": "bb-004",
+      "name": "South City Voluntary Blood Center",
+      "location": "77 9th Main, Jayanagar 3rd Block, Bengaluru",
+      "distance_km": 5.0,
+      "phone": "+91 80 2656 7788",
+      "stock": {
+        "A+": 8,
+        "A-": 2,
+        "B+": 12,
+        "B-": 1,
+        "O+": 14,
+        "O-": 3,
+        "AB+": 6,
+        "AB-": 1
+      }
+    }
+  ]
+}
